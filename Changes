@@ -6,3 +6,7 @@ Revision history for Perl extension Math::Random::Xorshift.
 0.02  2010-06-18
     - Added "-std=c99" compiler option.
     - Removed "inline" keyword.
+
+0.03  2010-06-18
+    - Fixed documentation mistake;
+      My email address noted in AUTHOR section was wrong...

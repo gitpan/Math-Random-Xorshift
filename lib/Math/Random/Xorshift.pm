@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Exporter::Lite;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our @EXPORT_OK = qw/srand rand irand/;
 
 require XSLoader;
@@ -97,7 +97,7 @@ CORE::rand            20852364/s             2191%         2147%            2127
 
 =head1 AUTHOR
 
-Koichi SATOH, E<lt>koichi@gmail.comE<gt>
+Koichi SATOH, E<lt>sekia@gmail.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
