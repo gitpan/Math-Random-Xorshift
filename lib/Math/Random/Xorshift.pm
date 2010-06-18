@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Exporter::Lite;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT_OK = qw/srand rand irand/;
 
 require XSLoader;
@@ -45,7 +45,7 @@ If you want rather more reliability than fastness, I recommend L<Math::Random::M
 
 =head2 EXPORT
 
-None by default. You can import C<srand>, C<rand> and C<irand> to replace Perl's builtins. These functions manupilate global PRNG in C level. So these are about 3-4x faster than OO interface, since there's no method resolution overhead.
+None by default. You can import C<srand>, C<rand> and C<irand> to replace Perl's builtins. These functions manupilate static PRNG object in C level. So these are about 3-4x faster than OO interface, since there's no method resolving overhead.
 
 =head1 METHOD
 
