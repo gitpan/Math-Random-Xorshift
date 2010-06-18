@@ -1,7 +1,7 @@
 ---
 abstract: 'a fast PRNG'
 author:
-  - 'Koichi SATOH, <sekia@gmail.com>'
+  - 'Koichi SATOH, <r.sekia@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
   Test::Exception: 0.29
@@ -26,4 +26,4 @@ requires:
   perl: 5.8.0
 resources:
   license: http://opensource.org/licenses/mit-license.php
-version: 0.03
+version: 0.04

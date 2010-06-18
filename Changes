@@ -10,3 +10,8 @@ Revision history for Perl extension Math::Random::Xorshift.
 0.03  2010-06-18
     - Fixed documentation mistake;
       My email address noted in AUTHOR section was wrong...
+
+0.04  2010-06-18
+    - OMG I had same mistake again and found it out after uploading to PAUSE...
+      This is just a documentation fix so there's no feature improvements.
+      I'm sorry for log pollution.
