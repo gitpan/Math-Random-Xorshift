@@ -14,9 +14,6 @@ author_tests qw/xt/;
 cc_inc_paths qw/./;
 ppport;
 
-makemaker_args(
-  OBJECT  => '$(O_FILES)',
-  CCFLAGS => '-std=c99'
-);
+makemaker_args(OBJECT  => '$(O_FILES)');
 
 WriteAll;

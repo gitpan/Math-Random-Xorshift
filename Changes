@@ -14,4 +14,8 @@ Revision history for Perl extension Math::Random::Xorshift.
 0.04  2010-06-18
     - OMG I had same mistake again and found it out after uploading to PAUSE...
       This is just a documentation fix so there's no feature improvements.
-      I'm sorry for log pollution.
+
+0.04_01  2010-09-14
+    - Fixed to support Windows compiler (Not tested since I don't have the
+      platform. Send me report please.)
+    - Use Perl's "bool" typedef instead of C99's.

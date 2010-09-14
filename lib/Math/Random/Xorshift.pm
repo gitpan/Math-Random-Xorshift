@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Exporter::Lite;
 
-our $VERSION = '0.04';
+our $VERSION = '0.04_01';
 our @EXPORT_OK = qw/srand rand irand/;
 
 require XSLoader;
@@ -45,7 +45,7 @@ If you want rather more reliability than fastness, I recommend L<Math::Random::M
 
 =head2 EXPORT
 
-None by default. You can import C<srand>, C<rand> and C<irand> to replace Perl's builtins. These functions manupilate static PRNG object in C level. So these are about 3-4x faster than OO interface, since there's no method resolving overhead.
+None by default. You can import C<srand>, C<rand> and C<irand> to replace Perl's builtins. These functions manupilate static PRNG object in C level. So these are about 3-4x faster than OO interface, since there's no method resolution overhead.
 
 =head1 METHOD
 
@@ -64,7 +64,7 @@ Returns unsigned random integer in range of [0, UINT32_MAX).
 
 =head2 rand([$upper_limit = 1.0])
 
-Returns random real number in range of [0, $upper_limit).
+Returns random real number in range of [0, $upper_limit). C<$upper_limit> should be positive.
 
 =head1 BENCHMARK
 

@@ -2,12 +2,12 @@
 
 bool xorshift_srand(xorshift_t *prng,
                     uint32_t x, uint32_t y, uint32_t z, uint32_t w) {
-  if (x == 0 && y == 0 && z == 0 && w == 0) { return false; }
+  if (x == 0 && y == 0 && z == 0 && w == 0) { return FALSE; }
   prng->x = x;
   prng->y = y;
   prng->z = z;
   prng->w = w;
-  return true;
+  return TRUE;
 }
 
 uint32_t xorshift_irand(xorshift_t *prng) {
