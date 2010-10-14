@@ -5,6 +5,7 @@ all_from 'lib/Math/Random/Xorshift.pm';
 
 requires 'Exporter::Lite' => '0.02';
 
+test_requires 'Test::More' => '0.88';
 test_requires 'Test::UseAllModules' => '0.12';
 test_requires 'Test::Exception' => '0.29';
 

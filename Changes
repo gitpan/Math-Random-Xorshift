@@ -19,3 +19,7 @@ Revision history for Perl extension Math::Random::Xorshift.
     - Fixed to support Windows compiler (Not tested since I don't have the
       platform. Send me report please.)
     - Use Perl's "bool" typedef instead of C99's.
+
+0.04_02  2010-10-14
+    - Added Test::More 0.88+, supports done_testing(), to test_require
+      dependencies.
