@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Exporter::Lite;
 
-our $VERSION = '0.04_02';
+our $VERSION = '0.05';
 our @EXPORT_OK = qw/srand rand irand/;
 
 require XSLoader;
